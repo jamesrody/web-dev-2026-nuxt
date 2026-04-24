@@ -28,28 +28,28 @@
         {
             label:"Home Page",
             to:"/",
-            target:
+            target:""
 
         },
         {
             label:"About Page",
             to:"/about",
-            target:
+            target:""
 
         },
         {
             label:"blank Page",
             to:"/",
-            target:
+            target:""
 
         },
         {
             label:"blank Page",
             to:"/",
-            target:
+            target:""
 
-        }
+        },
         
-    ]
+    ];
 
 </script>
