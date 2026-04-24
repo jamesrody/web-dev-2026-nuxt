@@ -1,5 +1,8 @@
 <template>
     <UContainer>
+        <UHeader title="James Rody">
+            <UNavigationMenu :items="items" variant="link"/>
+        </UHeader>
         <slot/>
         <UFooter>
             <template #left>
@@ -15,7 +18,6 @@
                     color="neutral"
                     size="sm"
                     to="https://www.linkedin.com/in/james-rody-17b2712ba/"
-                    target="_blank"
 
                 />
             </template>
@@ -27,27 +29,19 @@
     const items = [
         {
             label:"Home Page",
-            to:"/",
-            target:""
-
+            to:"/"
         },
         {
             label:"About Page",
-            to:"/about",
-            target:""
-
+            to:"/about"
         },
         {
-            label:"blank Page",
-            to:"/",
-            target:""
-
+            label:"Portfolio",
+            to:"/portfolio"
         },
         {
-            label:"blank Page",
-            to:"/",
-            target:""
-
+            label:"Contact",
+            to:"/contact"
         },
         
     ];
