@@ -12,14 +12,6 @@
             <UNavigationMenu :items="items" variant="link"/>
 
             <template #right>
-                <UButton
-                    icon="i-simple-icons-linkedin"
-                    variant="outline"
-                    color="neutral"
-                    size="sm"
-                    to="https://www.linkedin.com/in/james-rody-17b2712ba/"
-
-                />
             </template>
 
         </UFooter>
@@ -32,12 +24,12 @@
             to:"/"
         },
         {
-            label:"About Page",
-            to:"/about"
+            label:"Itinerary Page",
+            to:"/itinerary"
         },
         {
-            label:"Portfolio",
-            to:"/portfolio"
+            label:"Gallery",
+            to:"/gallery"
         },
         {
             label:"Contact",

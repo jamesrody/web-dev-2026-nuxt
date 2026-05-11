@@ -5,13 +5,13 @@
                 <NuxtLink to="/">Home Page</NuxtLink>
             </li>
             <li>
-                <NuxtLink to="/about">About Page</NuxtLink>
+                <NuxtLink to="/itinerary">Itinerary Page</NuxtLink>
             </li>
             <li>
                 <NuxtLink to="/contact">Contact Page</NuxtLink>
             </li>
             <li>
-                <NuxtLink to="/services">Services Page</NuxtLink>
+                <NuxtLink to="/gallery">Gallery Page</NuxtLink>
             </li>
         </ul>
     </nav>
