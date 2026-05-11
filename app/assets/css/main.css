@@ -1,2 +1,13 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
+
+@theme {
+    --color-primary: #6366f1;
+    --font-sans: 'Inter', sans-serif;
+  }
+  
+  @layer base {
+    body {
+      background-color: #238e576e;
+    }
+  }

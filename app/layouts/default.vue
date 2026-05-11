@@ -1,6 +1,6 @@
 <template>
     <UContainer>
-        <UHeader title="James Rody">
+        <UHeader title="James Rody"  class="rounded-xl">
             <UNavigationMenu :items="items" variant="link"/>
         </UHeader>
         <slot/>
